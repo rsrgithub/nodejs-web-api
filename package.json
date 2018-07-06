@@ -1,0 +1,23 @@
+{
+  "name": "webapinodejstutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsrgithub/nodejs-web-api.git"
+  },
+  "author": "rsr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rsrgithub/nodejs-web-api/issues"
+  },
+  "homepage": "https://github.com/rsrgithub/nodejs-web-api#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "express": "^4.16.3"
+  }
+}
