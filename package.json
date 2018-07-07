@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node src/app.js"
+    "start": "set DEBUG=app & nodemon src/app.js",
+    "lint": "eslint src/app.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,18 @@
   },
   "homepage": "https://github.com/rsrgithub/nodejs-web-api#readme",
   "dependencies": {
-    "chalk": "^2.4.1",
-    "express": "^4.16.3"
+    "bootstrap": "4.1.1",
+    "chalk": "2.4.1",
+    "debug": "3.1.0",
+    "ejs": "2.6.1",
+    "express": "4.16.3",
+    "jquery": "3.3.1",
+    "morgan": "1.9.0"
+  },
+  "devDependencies": {
+    "eslint": "4.19.1",
+    "eslint-config-airbnb-base": "13.0.0",
+    "eslint-plugin-import": "2.13.0",
+    "nodemon": "1.17.5"
   }
 }
